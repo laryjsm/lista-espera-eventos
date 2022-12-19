@@ -1,0 +1,91 @@
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    border:0;
+    text-align: center;
+    background: #000;
+    font-family: 'Poppins', sans-serif;
+    }
+
+
+body {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.imagem-logo {
+    margin: 30px 0;
+    max-width: 250px;
+    width: 100%;
+}
+
+.h1{
+    text-align: center;
+    color: #00DC00;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.h2{
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-email{
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100%;
+    height: 45px;
+    color: #FFFFFF;
+    padding: 10px;
+    cursor: text;
+    border: none;
+    text-align: center;
+    background-color: #FFFFFF33;
+    border-color: #AAAAAA;
+    border-radius: 14px;
+    text-align: start;
+}
+
+.botao-enviar{
+    color: #000000;
+    margin-top: 15px;
+    height: 45px;
+    background-color: #00DC00;
+    padding: 10px;
+    border-radius: 14px;
+    font-size: 15px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.paragrafo-copyright{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+    margin-top: 60px;
+}
+
+._form-branding {
+    display: none;
+}
+
+#_form_3_submit {
+    color: white;
+    height: 100px;
+    width: 300px;
+}
