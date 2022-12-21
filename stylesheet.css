@@ -27,16 +27,71 @@ body {
 
 .imagem-logo {
     margin: 30px 0;
-    max-width: 250px;
-    width: 100%;
+    max-width: 100%;
+    width: 200px;
+    
 }
-
+.imagem-logo:hover {
+    transition: 2s;
+    width: 205px;
+}
 .h1 {
     text-align: center;
     color: #00DC00;
     font-size: 30px;
     font-weight: 600;
     font-family: Poppins-Bold;
+}
+
+/* INICIO BRILHO TEXTO*/
+.h1 span {
+    animation-name: brilho;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    font-family: Poppins-Bold;
+
+}
+
+.h1 .d {
+    animation-delay: 0.25s;
+}
+
+.h1 .e {
+    animation-delay: 0.50s;
+}
+
+.h1 .v {
+    animation-delay: 0.75s;
+}
+
+.h1 .c {
+    animation-delay: 1.0s;
+}
+
+.h1 .l {
+    animation-delay: 1.25s;
+}
+
+.h1 .u {
+    animation-delay: 1.50s;
+}
+
+.h1 .b {
+    animation-delay: 1.70s;
+}
+
+@keyframes brilho {
+    0% {
+        color: #00DC00;
+        text-shadow: 0 0 12px #03ff03, 0 0 50px #03ff03, 0 0 100px #03ff03;
+    }
+
+    10%,
+    90% {
+        color: #00DC00;
+        text-shadow: none;
+    }
 }
 
 .h2 {
@@ -93,10 +148,17 @@ form {
 
 ._form-branding {
     display: none;
+
 }
 
 #_form_3_submit {
     color: white;
     height: 100px;
     width: 300px;
+}
+
+#email, #_form_29_submit {
+    width: 450px !important;
+    height: 45px !important;
+    border-radius: 14px !important;
 }
